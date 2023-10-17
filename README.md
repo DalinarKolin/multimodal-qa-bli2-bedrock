@@ -13,8 +13,6 @@ The pattern involves combining BLIP-2 and Claude in a multimodal QA system. BLIP
 ### Proposal
 To the above challenges, this notebook proposes the following strategy
 
-![Diagram](./images/diagram.png)
-
 #### Deploy BLIP-2 to a SageMaker endpoint
 You can host an LLM on SageMaker using the Large Model Inference (LMI) container that is optimized for hosting large models using DJLServing. 
 
